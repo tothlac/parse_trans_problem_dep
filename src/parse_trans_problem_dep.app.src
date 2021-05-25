@@ -5,7 +5,8 @@
   {mod, {parse_trans_problem_dep_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    parse_trans
    ]},
   {env,[]},
   {modules, []},
