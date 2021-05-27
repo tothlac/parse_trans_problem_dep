@@ -5,6 +5,8 @@
 
 -module(parse_trans_problem_dep_app).
 
+-compile([{parse_transform, parse_trans_problem_pt}]).
+
 -behaviour(application).
 
 -export([start/2, stop/1]).
